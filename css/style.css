@@ -292,9 +292,9 @@ ul.carousel-indicators {
 
 .section-header p {
     font-size: 22px;
-    line-height: 36px;
-    font-weight: 300;
-    color: #5885AF;
+    line-height: 32px;
+    font-weight: 400;
+    color: #003B73;
     text-align: center;
     margin: 0;
 }
@@ -338,6 +338,7 @@ ul.carousel-indicators {
     margin: -100px auto 0 auto;
     padding: 30px;
     background: #edfdff;
+    box-shadow: 0 6px 10px -5px;
 }
 
 .about .about-content h2, .single .single-content h2 {
@@ -349,8 +350,8 @@ ul.carousel-indicators {
 .about .about-content p, .single .single-content p {
     font-size: 16px;
     line-height: 26px;
-    font-weight: 300;
-    color: #60A3D9;
+    font-weight: 500;
+    color: #ee5e68;
 }
 
 .about .btn, .single .btn {
@@ -369,7 +370,6 @@ ul.carousel-indicators {
     .about .about-content, .single .single-content {
         width: 92%;
         padding: 30px 20px;
-        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     }
 }
 /**************************************/
@@ -476,9 +476,6 @@ ul.carousel-indicators {
     color: #ffffff;
     background: #189AB4;
 }
-
-
-
 /**************************************/
 /************* Pricing CSS ************/
 /**************************************/
@@ -490,6 +487,7 @@ ul.carousel-indicators {
     position: relative;
     background: #ffffff;
     text-align: center;
+    box-shadow: 0 6px 10px -5px;
     margin-bottom: 30px;
 }
 
@@ -644,10 +642,10 @@ ul.carousel-indicators {
 
 .skills .skill-name p {
     display: inline-block;
-    margin-bottom: 5px;
     font-size: 16px;
-    font-weight: 400;
-    color: #189AB4;
+    font-weight: 500;
+    color: #003B73;
+    margin-bottom: 5px;
 }
 
 .skills .skill-name p:last-child {
@@ -706,12 +704,14 @@ ul.carousel-indicators {
 .portfolio {
     position: relative;
     padding: 90px 0 60px 0;
+    background-color: #b3ebf3;
 }
 
 .portfolio .portfolio-item {
     margin-bottom: 30px;
     overflow: hidden;
 }
+
 
 .portfolio .portfolio-item .portfolio-img {
     position: relative;
@@ -797,7 +797,6 @@ ul.carousel-indicators {
     line-height: 24px;
     font-weight: 300;
     color: #60A3D9;
-    text-transform: uppercase;
     margin: 0;
 }
 /**************************************/
@@ -950,11 +949,11 @@ ul.carousel-indicators {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #51a0b085;
+    background-color: #fff;
 }
 
 .testimonials .owl-dot.active {
-    background-color: #189AB4;
+    background-color: #05445Ea6;
 }
 
 @media (max-width: 575px) {
