@@ -168,6 +168,7 @@ h6 {
     #nav .container-fluid {
         padding: 0;
     }
+    
 }
 
 
@@ -248,6 +249,11 @@ ul.carousel-indicators {
 }
 
 
+@media (max-width: 768px) {
+    .header .carousel-content {
+        padding: 15px 15px 15px 15px;
+    }
+}
 
 /**************************************/
 /******** Section Header CSS **********/
@@ -291,6 +297,12 @@ ul.carousel-indicators {
     color: #5885AF;
     text-align: center;
     margin: 0;
+}
+
+@media(max-width: 768px){
+    .section-header h2{
+        font-size: 26px;
+    }
 }
 /**************************************/
 /********* About + Single CSS *********/
