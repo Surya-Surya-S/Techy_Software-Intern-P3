@@ -800,10 +800,10 @@ ul.carousel-indicators {
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 300;
-    color: #60A3D9;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #001824;
     margin: 0;
 }
 /**************************************/
@@ -924,7 +924,7 @@ ul.carousel-indicators {
 }
 
 .testimonials .testimonial-text h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #189AB4;
     margin-bottom: 10px;
@@ -932,15 +932,16 @@ ul.carousel-indicators {
 
 .testimonials .testimonial-text h4 {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
     color: #05445Ea6;
     text-transform: uppercase;
 }
 
 .testimonials .testimonial-text p {
     font-size: 16px;
-    font-weight: 300;
-    color: #189AB4;
+    line-height: 26px;
+    font-weight: 400;
+    color: #001824;
     margin: 0;
 }
 
