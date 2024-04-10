@@ -435,7 +435,7 @@ ul.carousel-indicators {
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
-    color: #5885AF;
+    color: #001824;
     margin: 0;
 }
 
@@ -678,14 +678,14 @@ ul.carousel-indicators {
     position: relative;
     width: 100%;
     padding: 90px 0;
-    background: #5885AF;
+    background: #e7ecef;
 }
 
 .counters i {
     display: inline-block;
     font-size: 90px;
     line-height: 0;
-    color: #BFD7ED;
+    color: #274c77;
     margin-bottom: 10px;
 }
 
@@ -694,13 +694,13 @@ ul.carousel-indicators {
     font-size: 60px;
     font-weight: 900;
     letter-spacing: 5px;
-    color: #BFD7ED;
+    color: #274c77;
 }
 
 .counters p {
     font-size: 22px;
     font-weight: 600;
-    color: #BFD7ED;
+    color: #274c77;
 }
 
 
