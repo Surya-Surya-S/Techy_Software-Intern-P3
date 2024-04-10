@@ -56,7 +56,7 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #4F84C4;
+    background: #05445E;
     color: #ffffff;
     width: 45px;
     height: 45px;
@@ -73,7 +73,9 @@ h6 {
     color: #ffffff;
 }
 
-
+.back-to-top:hover{
+    background: #003B73;
+}
 
 /**************************************/
 /************** Nav CSS ***************/
@@ -376,8 +378,9 @@ ul.carousel-indicators {
 /************ Services CSS ************/
 /**************************************/
 .service {
-    padding: 90px 0 60px 0;
+    background-color: #bdd7ee;
     text-align: center;
+    padding: 90px 0 60px 0;
 }
 
 .service .service-item {
@@ -618,6 +621,7 @@ ul.carousel-indicators {
 /*********** Our Skills CSS ***********/
 /**************************************/
 .skills {
+    background-color: #bdd7ee;
     position: relative;
     padding: 90px 0 60px 0;
 }
@@ -644,7 +648,7 @@ ul.carousel-indicators {
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
-    color: #003B73;
+    color: #985743;
     margin-bottom: 5px;
 }
 
