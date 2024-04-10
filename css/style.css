@@ -432,6 +432,9 @@ ul.carousel-indicators {
 }
 
 .service .service-detail p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
     color: #5885AF;
     margin: 0;
 }
