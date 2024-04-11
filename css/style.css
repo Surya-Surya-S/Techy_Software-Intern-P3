@@ -1,6 +1,4 @@
-/**************************************/
-/************ General CSS *************/
-/**************************************/
+/*  General CSS  */
 body {
     color: #757575;
     font-family: 'Raleway', sans-serif;
@@ -12,9 +10,7 @@ a {
     transition: 0.3s;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
     color: #666666;
     outline: none;
     text-decoration: none;
@@ -26,21 +22,14 @@ p {
     margin: 0 0 15px 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: #888888;
     margin: 0 0 15px 0;
     padding: 0;
 }
 
-h4,
-h5,
-h6 {
+h4, h5, h6 {
     font-weight: 400;
 }
 
@@ -48,11 +37,7 @@ h6 {
     margin-top: 100px;
 }
 
-
-
-/**************************************/
-/********** Back to Top CSS ***********/
-/**************************************/
+/* Back to Top CSS */
 .back-to-top {
     position: fixed;
     display: none;
@@ -77,9 +62,7 @@ h6 {
     background: #003B73;
 }
 
-/**************************************/
-/************** Nav CSS ***************/
-/**************************************/
+/* Nav CSS */
 #nav {
     position: fixed;
     top: 0;
@@ -119,15 +102,11 @@ h6 {
     transition: all .5s;
 }
 
-#nav .nav-link,
-#nav .nav-link:focus,
-#nav .nav-link:hover,
-#nav .nav-link.active {
+#nav .nav-link, #nav .nav-link:focus, #nav .nav-link:hover, #nav .nav-link.active {
     color: #ffffff;
 }
 
-#nav .nav-link:hover,
-#nav .nav-link.active {
+#nav .nav-link:hover, #nav .nav-link.active {
     color: #189AB4;
     background: #D4F1F4;
     transition: none;
@@ -174,10 +153,7 @@ h6 {
 }
 
 
-
-/**************************************/
-/************* Header CSS *************/
-/**************************************/
+/* Header CSS */
 .header {
     position: relative;
     width: 100%;
@@ -200,19 +176,36 @@ h6 {
     max-height: 100%;
 }
 
-.header .carousel-content {
+.carousel-img {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.header .first-content, .header .second-content, .header .third-content {
     padding: 15px 15px 15px 76px;
     text-align: center;
 }
 
-.header .carousel-content h2 {
+.header .first-content h2, .header .second-content h2, .header .third-content h2 {
     color: #183D3D;
     font-size: 30px;
     line-height: 40px;
     font-weight: 700;
 }
 
-.header .carousel-content p {
+.header .first-content h2 {
+    color: #ff725e;
+}
+
+.header .second-content h2 {
+    color: #178573;
+}
+
+.header .third-content h2 {
+    color: #3262cc;
+}
+
+.header .first-content p, .header .second-content p, .header .third-content p {
     color: #818FB4;
     font-size: 16px;
     line-height: 26px;
@@ -220,15 +213,47 @@ h6 {
     margin-bottom: 25px;
 }
 
-.header .carousel-content .btn {
+.header .first-content p {
+    color: #263238;
+}
+
+.header .second-content p {
+    color: #36464f;
+}
+
+.header .third-content p {
+    color: #515a60;
+}
+
+.header .first-content .btn, .header .second-content .btn, .header .third-content .btn {
     padding: 12px 30px;
     color: #ffffff;
     border-radius: 0;
     background: #189AB4;
 }
 
-.header .carousel-content .btn:hover {
-    background: #05445E;
+.header .first-content .btn {
+    background: #263238;
+}
+
+.header .second-content .btn {
+    background: #36464f;
+}
+
+.header .third-content .btn {
+    background: #515a60;
+}
+
+.header .first-content .btn:hover {
+    background: #ff725e;
+}
+
+.header .second-content .btn:hover {
+    background: #178573;
+}
+
+.header .third-content .btn:hover {
+    background: #3262cc;
 }
 
 .carousel-control-next i,
@@ -252,14 +277,12 @@ ul.carousel-indicators {
 
 
 @media (max-width: 768px) {
-    .header .carousel-content {
+    .header .carousel-content, .header .first-content {
         padding: 15px 15px 15px 15px;
     }
 }
 
-/**************************************/
-/******** Section Header CSS **********/
-/**************************************/
+/* Section Header CSS */
 .section-header {
     max-width: 68rem;
     position: relative;
@@ -306,11 +329,9 @@ ul.carousel-indicators {
         font-size: 26px;
     }
 }
-/**************************************/
-/********* About + Single CSS *********/
-/**************************************/
-.about,
-.single {
+
+/* About + Single CSS */
+.about, .single {
     position: relative;
     padding: 90px 0 60px 0;
     background: #fff;
@@ -374,9 +395,8 @@ ul.carousel-indicators {
         padding: 30px 20px;
     }
 }
-/**************************************/
-/************ Services CSS ************/
-/**************************************/
+
+/* Services CSS */
 .service {
     background-color: #bdd7ee;
     text-align: center;
@@ -441,9 +461,7 @@ ul.carousel-indicators {
 
 
 
-/**************************************/
-/********* Call To Action CSS *********/
-/**************************************/
+/* Call To Action CSS */
 .call-to-action {
     position: relative;
     padding: 90px 0;
@@ -467,7 +485,7 @@ ul.carousel-indicators {
 }
 
 .call-to-action .btn {
-    padding: 15px 30px;
+    padding: 15px;
     color: #4F84C4;
     font-weight: 700;
     font-size: 18px;
@@ -482,9 +500,8 @@ ul.carousel-indicators {
     color: #ffffff;
     background: #189AB4;
 }
-/**************************************/
-/************* Pricing CSS ************/
-/**************************************/
+
+/* Pricing CSS */
 .pricing {
     padding: 90px 0 60px 0;
 }
@@ -619,10 +636,7 @@ ul.carousel-indicators {
 }
 
 
-
-/**************************************/
-/*********** Our Skills CSS ***********/
-/**************************************/
+/* Our Skills CSS */
 .skills {
     background-color: #bdd7ee;
     position: relative;
@@ -670,15 +684,13 @@ ul.carousel-indicators {
 }
 
 
-
-/**************************************/
-/************ Counters CSS ************/
-/**************************************/
+/* Counters CSS */
 .counters {
     position: relative;
     width: 100%;
     padding: 90px 0;
     background: #e7ecef;
+    overflow: hidden;
 }
 
 .counters i {
@@ -704,10 +716,7 @@ ul.carousel-indicators {
 }
 
 
-
-/**************************************/
-/************ Portfolio CSS ***********/
-/**************************************/
+/* Portfolio CSS */
 .portfolio {
     position: relative;
     padding: 90px 0 60px 0;
@@ -806,9 +815,8 @@ ul.carousel-indicators {
     color: #001824;
     margin: 0;
 }
-/**************************************/
-/************** Team CSS **************/
-/**************************************/
+
+/* Team CSS */
 .team {
     position: relative;
     padding: 90px 0;
@@ -890,9 +898,8 @@ ul.carousel-indicators {
     color: #60A3D9;
     text-transform: uppercase;
 }
-/**************************************/
-/*********** Testimonials CSS *********/
-/**************************************/
+
+/* Testimonials CSS */
 .testimonials {
     position: relative;
     padding: 90px 0 60px 0;
@@ -969,9 +976,8 @@ ul.carousel-indicators {
         padding: 25px;
     }
 }
-/**************************************/
-/************* Clients CSS ************/
-/**************************************/
+
+/* Clients CSS */
 .clients {
     position: relative;
     padding: 90px 0;
@@ -1011,11 +1017,7 @@ ul.carousel-indicators {
     background-color: #4F84C4;
 }
 
-
-
-/**************************************/
-/************* Contact CSS ************/
-/**************************************/
+/* Contact CSS */
 .contact {
     position: relative;
     padding: 90px 0;
@@ -1073,11 +1075,7 @@ ul.carousel-indicators {
     margin-bottom: -7px;
 }
 
-
-
-/**************************************/
-/************* Footer CSS *************/
-/**************************************/
+/* Footer CSS */
 .footer {
     position: relative;
     padding: 0 0 30px 0;
