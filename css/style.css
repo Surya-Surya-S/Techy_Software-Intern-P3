@@ -277,8 +277,8 @@ ul.carousel-indicators {
 
 
 @media (max-width: 768px) {
-    .header .carousel-content, .header .first-content {
-        padding: 15px 15px 15px 15px;
+    .header .first-content, .header .second-content, .header .third-content {
+        padding: 15px 15px 56px;
     }
 }
 
