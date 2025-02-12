@@ -149,7 +149,9 @@ h4, h5, h6 {
     #nav .container-fluid {
         padding: 0;
     }
-    
+    .navbar-nav {
+        padding-top: 44px;
+    }    
 }
 
 
